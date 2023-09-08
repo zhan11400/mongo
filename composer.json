@@ -1,0 +1,21 @@
+{
+    "name": "since/mongo",
+    "description": "PHP MongoDB",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhan",
+            "email": "1140099248@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1"
+    },
+	"autoload": {
+        "psr-4": {
+            "since\\": "src/"
+        }
+    }
+}
